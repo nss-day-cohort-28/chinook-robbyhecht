@@ -13,4 +13,4 @@ GROUP BY EmployeeName
 
 ) AS TopEmployee;
 
--- use the like/then syntax to limit the query to 2009, wrap it in max to only display the top earner.
+-- use the like/then syntax to limit the query to 2009, wrap query in max to show only biggest $ amount. Only wrap in max the column that you are specifying by size.
