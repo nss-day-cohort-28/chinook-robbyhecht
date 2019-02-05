@@ -7,4 +7,4 @@ JOIN Employee on Customer.SupportRepId = Employee.EmployeeId
 ORDER BY Employee.FirstName
 
 
--- Don't need: WHERE Employee.Title = "Sales Support Agent", because only Agents' ids are included on Customer table
+-- Don't need: { WHERE Employee.Title = "Sales Support Agent" } because only Agents' ids are included on the Customer table
