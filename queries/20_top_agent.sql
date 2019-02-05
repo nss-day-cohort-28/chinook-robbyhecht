@@ -11,3 +11,5 @@ JOIN Invoice as I on I.CustomerId = C.CustomerId
 GROUP BY EmployeeName
 
 ) AS TopEmployee;
+
+-- wrap query in max to show only biggest $ amount. Only wrap in max the column that you are specifying by size.
