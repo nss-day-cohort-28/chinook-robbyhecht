@@ -5,3 +5,4 @@ FROM Invoice
 GROUP BY BillingCountry
 ORDER BY BillingCountry ASC
 
+-- if you want to order by ascending 'total sales', you must remove the '$' or it will order as a string
